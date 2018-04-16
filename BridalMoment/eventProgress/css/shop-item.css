@@ -4,11 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
  */
 
+
+
+
+
 body {
   padding-top: 54px;
 }
 
-
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*padding: 1rem;*/
+/*  background-color: #efefef;*/
+  text-align: center;
+}
 
 @media (min-width: 992px) {
   body {
@@ -16,27 +28,17 @@ body {
   }
 }
 
-
-.button {
-    background-color: #555555; /* Green */
-    border: none;
-    border-radius: 8px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+.container1{
+	
+	margin-top:100px;
+	
 }
-
 
 
 .bar-step {
     position:absolute;
     margin-top:-20px;
-  z-index:1;
+	z-index:1;
     font-size:12px;
 }
 
@@ -48,33 +50,11 @@ body {
     float: right;
     background: #000;
     height:50px;
-  width:1px;
+	width:1px;
     margin-left: 5px;
 }
 
 .label-percent {
     float: right;
     margin-left: 5px;   
-}
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #343b40;
-  padding: 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #ccc;
 }
