@@ -374,24 +374,6 @@ Course Teacher
 
 		});
 	</script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-    		alert('ready');
-    		$.ajax({
-        		method: "POST",
-        		url: "https://campaign.thedailystar.net/risehighbd/setlike",
-        		data: { id : 6 }
-	        }).done(function(msg) {
-	        	if(msg) {
-	        		if(msg == '-1') {
-	            		alert("Have you been here before?");
-	        		}
-	        	}
-	      	});
-	      	alert('Done');
-		});
-	</script>
-
 </body>
 
 </html>
